@@ -64,7 +64,7 @@ export function SignUp() {
         }
 
     }
-
+    console.log("GS")
     const passwordRepeatError = useMemo(() => {
         if(password && password !== passwordRepeat) {
             return 'Password Missmatch'
